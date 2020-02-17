@@ -1,0 +1,22 @@
+#lstrip                                - removes spaces from left of string
+#rstrip 								- removes spaces from right of string
+# strip									- removes spaces from left and right of string
+# chop								- cuts the last char of a string
+# upcase                             - changes string to all uppercase
+# downcase                       - changes string to all lowercase
+#length                                - returns the length of a string
+# concat                               - combines two strings together
+# reverse                           -reverses the string
+# insert								-inserts data into a string str.insert(index, "string")	or str[index]  = "string"
+# repeating						- string * 3 (will repeat string 3 times)
+# replace							- string["word"] = "something else"
+# gsub								- string.gsub("replace some word", "with something else")
+# count								- string.count("val") ---> will return how many times that char appears in a string
+# split									- 	string.split   ---> splits a string at spaces by default and puts in an array you can specify the symbol or char you want to use to split 
+
+# find sub string by index           - string[2..6]   ---> returns sub string from second index to sixth
+# find index of any word 				- string.index("word")
+# string compare                           - string == string1 or string.eql?(string1)
+# casecmp                                     - string.casecmp(string1) ---> compares two strings regardless of case
+
+
