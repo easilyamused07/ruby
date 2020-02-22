@@ -1,0 +1,47 @@
+ways to initalize hashes
+
+	hash1 = {"K1" => "val1", "K2" => "val2"}
+
+	hash2 = Hash.new ()            - default value will be nil
+
+	hash2["K1"] = "val1"                         -assign key,value pair to hash
+
+	hash3 = Hash.new("A")               - default value will be A      (if key does not exisit then default value will return)
+
+	puts hash1           - displays all the key,value paris of the hash
+
+	puts hash3["K1"]                 -displays only specific key's value
+
+
+common hash methods
+
+	length / size     - will tell you how many key,value pairs are in the hash
+
+	keys        -displays all keys in the hash
+
+	values    -displays all the values in a hash
+
+	key?(key)    -checks if a particular key exisit returns true/false
+
+
+create hash with symbol as a key
+
+	symbol name always starts with colon
+	no need to put in quotes
+	symbol is an object of class
+	allocates single memory location
+	
+	hash1 = {:k1 => "val1", :k2 => "val2"}
+	hash1[:k1]                                    -access specific key's value
+	
+	
+for each loop
+		
+	hash1 = {"k1" => "val1", "k2" => "val2"}
+
+	hash1.each do |k, v|
+
+		print k + " --> "
+		puts v
+
+	end

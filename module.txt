@@ -1,0 +1,8 @@
+Module method can be called by modulename::methodname
+Method in Class in Module can be called by
+obj = modulename::classname.new
+obj.methodname
+
+Sub Module method within a class can be called by
+obj = modulename::submodulename::classname.new
+obj.methodname                             
